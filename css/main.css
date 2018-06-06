@@ -1,0 +1,112 @@
+body {
+    background-color: #b4def7;
+    font-family: "Noto serif CJK TC", "Palatino Linotype"
+}
+
+#title {
+    font-size: 48px;
+    margin: 0px;
+}
+
+#subtitle {
+    font-size: 32px;
+    margin: 0px;
+    margin-left: 6px;
+}
+
+#legend-box {
+    font-size: 20px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+#legend-box p {
+    margin: 8px;
+}
+
+.legend {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px;
+    position: relative;
+    top: 2.5px;
+}
+
+#map {
+    position: fixed;
+    left: 40%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: right;
+}
+
+#hint {
+    position: fixed;
+    visibility: hidden;
+    font-size: 28px;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #FFFFFFCC;
+    text-align: center;
+}
+
+svg {
+    margin-top: -5%;
+    height: 120%;
+}
+
+.county-bg {
+    fill: gainsboro;
+}
+
+.lv0 {
+    fill: green;
+    background-color: green;
+}
+
+.lv1 {
+    fill: yellow;
+    background-color: yellow;
+}
+
+.lv2 {
+    fill: orange;
+    background-color: orange;
+}
+
+.lv3 {
+    fill: red;
+    background-color: red;
+}
+
+.lv4 {
+    fill: purple;
+    background-color: purple;
+}
+
+.district-border {
+    stroke: #FFFFFF80;
+    stroke-width: 1px;
+}
+
+.county-border {
+    stroke: #333333;
+    stroke-width: 4px;
+}
+
+.border {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    fill: none;
+    stroke-miterlimit: 10;
+}
+
+#tainan>path:hover {
+    stroke: black;
+    stroke-width: 2px;
+}
