@@ -117,9 +117,12 @@ svg {
 
 #bottom {
     position: fixed;
-    right: 30px;
-    bottom: 30px;
+    right: 20px;
+    bottom: 20px;
     z-index: 100;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #fb-like {
