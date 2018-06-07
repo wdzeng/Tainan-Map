@@ -46,7 +46,7 @@
 		<div id="fb-like" class="fb-like" data-href="https://www.facebook.com/tainansprout" data-width="200" data-layout="button_count"
 		 data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
 		<a href="https://www.facebook.com/tainansprout" target="_blank">
-			<img src="image/bar.png" height="45px" />
+			<img id="sprout" src="image/bar.png" height="45px" />
 		</a>
 		<a href="https://github.com/Paraball/Tainan-Map" target="_blank">
 		<svg height="45px" style="position: relative; top: 7.5px; display: inline-block; margin-left: 5px; vertical-align: middle;" height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true">
@@ -57,7 +57,7 @@
 		<div style="margin: 30px;">
 			<p id="title">台南制區地圖</p>
 			<p id="subtitle">制區等級：
-				<span id="level">0</span>／175</p>
+				<span id="level">0</span>／185</p>
 		</div>
 	</main>
 	<div id="legend-box">
@@ -74,10 +74,10 @@
 		<p>
 			<span class="lv5 legend"></span>等級五：從小到大都住在這裡</p>
 	</div>
-	<article id="map">
+	<article id="map-box">
 		<span id="hint"></span>
 		<?xml version="1.0" encoding="utf-8"?>
-		<svg viewBox="0 0 600 600" id="drawingArea" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+		<svg id="map" viewBox="0 0 600 600" id="drawingArea" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 		 x="0px" y="0px" xml:space="preserve" style="background: #b4def7">
 			<style type="text/css">
 				.county-bg {

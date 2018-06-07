@@ -34,7 +34,7 @@ body {
     top: 2.5px;
 }
 
-#map {
+#map-box {
     position: fixed;
     left: 40%;
     right: 0;
@@ -54,7 +54,7 @@ body {
     text-align: center;
 }
 
-svg {
+#map {
     margin-top: -5%;
     height: 120%;
 }
@@ -82,8 +82,6 @@ svg {
 .lv5 {
     background-color: purple;
 }
-
-.lv5 {}
 
 .district-border {
     stroke: #FFFFFF80;

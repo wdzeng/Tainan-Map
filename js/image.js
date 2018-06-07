@@ -9,7 +9,7 @@ document.querySelector('#download').addEventListener('click', function () {
     ctx.fillRect(0, 0, 1200, 900);
 
     //draw svg
-    var svgString = new XMLSerializer().serializeToString(document.querySelector('svg'));
+    var svgString = new XMLSerializer().serializeToString(document.querySelector('#map'));
     canvg('canvas', svgString, {
         ignoreMouse: true,
         ignoreAnimation: true,
@@ -28,6 +28,10 @@ document.querySelector('#download').addEventListener('click', function () {
     ctx.fillText("制區地圖", 210, 340);
     ctx.font = "160px Times New Roman"
     ctx.fillText(lv, 210, 520);
+
+    //draw sprout logo
+    /*ctx.font="40px 微軟正黑體"
+    ctx.fillText("台南新芽", 210, 620);*/
 
     //draw shadow
     ctx.fillStyle = '#FFFFFFCC';
@@ -59,6 +63,8 @@ document.querySelector('#download').addEventListener('click', function () {
         ctx.fillStyle = 'black';
         ctx.fillText(lgs[i], x, 877);
     }
+
+    
 
     //download
     canvas.toBlob(function (blob) { saveAs(blob, 'tainan.png'); });
