@@ -109,10 +109,24 @@ svg {
 }
 
 #download {
+    font-size: 19px !important;
+    font-family: "sans-serif", "微軟正黑體";
+    vertical-align: middle;
+    height: 45px;
+}
+
+#bottom {
     position: fixed;
     right: 30px;
     bottom: 30px;
-    font-size: 24px !important;
     z-index: 100;
-    font-family: "sans-serif", "微軟正黑體";
+}
+
+#fb-like {
+    padding: 9px;
+    margin-left:5px;
+    margin-right: 5px;
+    background-color: #FFFFFF60;
+    vertical-align: middle;
+    height: 45px;
 }

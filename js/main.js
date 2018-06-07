@@ -34,7 +34,7 @@ $(function () {
             case 'lv2 district-border': nxtclz = 'lv3 district-border'; lv += 1; break;
             case 'lv3 district-border': nxtclz = 'lv4 district-border'; lv += 1; break;
             case 'lv4 district-border': nxtclz = 'lv5 district-border'; lv += 1; break;
-            case 'lv5 district-border': nxtclz = 'lv0 district-border'; lv -= 4; break;
+            case 'lv5 district-border': nxtclz = 'lv0 district-border'; lv -= 5; break;
         }
 
         $this.attr('class', nxtclz);

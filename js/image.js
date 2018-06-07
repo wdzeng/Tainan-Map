@@ -37,7 +37,7 @@ document.querySelector('#download').addEventListener('click', function () {
     ctx.textAlign = 'start';
     ctx.font = "40px 微軟正黑體"
     let colors = ['lightblue', 'green', 'yellow', 'orange', 'red', 'purple'];
-    let lgs = ['沒聽過', '遊玩', '只有工作在這裡', '小時候住在這裡', '成年後搬到這裡', '從小到大都住在這裡'];
+    let lgs = ['沒去過', '遊玩或出差', '工作住所', '幼年住所或短居', '成年住所', '從小到大都住在這裡'];
     let len = 36;
     let fsize = 40;
     let m = 6;
