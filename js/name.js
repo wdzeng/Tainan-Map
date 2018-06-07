@@ -1,5 +1,4 @@
 function toChName(enName) {
-    console.log(enName);
     //www.tntb.gov.tw/core/eng/images/Tainan-map.jpg
     
     switch (enName) {

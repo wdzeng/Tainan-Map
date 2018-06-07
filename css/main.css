@@ -1,6 +1,6 @@
 body {
-    background-color: #b4def7;
-    font-family: "Noto serif CJK TC", "Noto serif CJK TC Medium",  "Palatino Linotype"
+    background-color: #b4def7 !important;
+    font-family: "sans-serif", "Noto serif CJK TC", "Noto serif CJK TC Medium", "Palatino Linotype"
 }
 
 #title {
@@ -59,38 +59,35 @@ svg {
     height: 120%;
 }
 
-.county-bg {
-    fill: gainsboro;
-}
-
 .lv0 {
-    fill: green;
-    background-color: green;
+    background-color: lightskyblue;
 }
 
 .lv1 {
-    fill: yellow;
-    background-color: yellow;
+    background-color: green;
 }
 
 .lv2 {
-    fill: orange;
-    background-color: orange;
+    background-color: yellow;
 }
 
 .lv3 {
-    fill: red;
-    background-color: red;
+    background-color: orange;
 }
 
 .lv4 {
-    fill: purple;
+    background-color: red;
+}
+
+.lv5 {
     background-color: purple;
 }
 
+.lv5 {}
+
 .district-border {
     stroke: #FFFFFF80;
-    stroke-width: 1px;
+    stroke-width: 0.1px;
 }
 
 .county-border {
@@ -109,4 +106,13 @@ svg {
 #tainan>path:hover {
     stroke: black;
     stroke-width: 2px;
+}
+
+#download {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    font-size: 24px !important;
+    z-index: 100;
+    font-family: "sans-serif", "微軟正黑體";
 }
