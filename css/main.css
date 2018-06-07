@@ -1,6 +1,6 @@
 body {
     background-color: #b4def7 !important;
-    font-family: "sans-serif", "Noto serif CJK TC", "Noto serif CJK TC Medium", "Palatino Linotype"
+    font-family: "sans-serif", "Noto serif CJK TC", "Noto serif CJK TC Medium", "Palatino Linotype" !important;
 }
 
 #title {
