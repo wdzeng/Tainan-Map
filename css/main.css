@@ -9,9 +9,9 @@ body {
 }
 
 #subtitle {
-    font-size: 32px;
+    font-size: 30px;
     margin: 0px;
-    margin-left: 6px;
+    margin-left: 4px;
 }
 
 #legend-box {
@@ -106,28 +106,49 @@ body {
     stroke-width: 2px;
 }
 
-#download {
-    font-size: 19px !important;
-    font-family: "sans-serif", "微軟正黑體";
-    vertical-align: middle;
-    height: 45px;
-}
-
 #bottom {
     position: fixed;
     right: 20px;
     bottom: 20px;
     z-index: 100;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    font-size: 18px !important;
 }
 
 #fb-like {
     padding: 9px;
-    margin-left:5px;
+    margin-left: 5px;
     margin-right: 5px;
     background-color: #FFFFFF60;
     vertical-align: middle;
     height: 45px;
+}
+
+
+
+#github {
+    padding: 4px !important;
+}
+
+#github svg {
+    display: inline;
+    height: 28.5px;
+    vertical-align: middle;
+    position: relative;
+    margin: 0;
+}
+
+button {
+    font-family: "sans-serif", "微軟正黑體" !important;
+}
+
+#sprout{
+    font-size: 14px;
+}
+
+#sprout img {
+    display: inline;
+    margin-right: 2.5px !important;
+    height: 24px;
+    vertical-align: middle;
+    position: relative;
 }
