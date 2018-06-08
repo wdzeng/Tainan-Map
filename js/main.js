@@ -40,4 +40,8 @@ $(function () {
         $this.attr('class', nxtclz);
         $lv.html(lv.toString());
     });
+
+    $('#sprout').click(function () {
+        window.open('https://www.facebook.com/tainansprout/', '_blank');
+    })
 });

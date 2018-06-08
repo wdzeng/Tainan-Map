@@ -1,6 +1,6 @@
 body {
     background-color: #b4def7 !important;
-    font-family: "sans-serif", "Noto serif CJK TC", "Noto serif CJK TC Medium", "Palatino Linotype" !important;
+    font-family: 'Noto Serif CJK TC', sans-serif !important;
 }
 
 #title {
@@ -48,10 +48,11 @@ body {
     visibility: hidden;
     font-size: 28px;
     width: 100px;
-    height: 40px;
+    /*height: 40px;*/
     border-radius: 4px;
     background-color: #FFFFFFCC;
     text-align: center;
+    pointer-events: none;
 }
 
 #map {
@@ -123,8 +124,6 @@ body {
     height: 45px;
 }
 
-
-
 #github {
     padding: 4px !important;
 }
@@ -141,14 +140,17 @@ button {
     font-family: "sans-serif", "微軟正黑體" !important;
 }
 
-#sprout{
-    font-size: 14px;
+#sprout {
+    /*font-size: 14px;*/
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
 }
 
 #sprout img {
     display: inline;
-    margin-right: 2.5px !important;
-    height: 24px;
+    margin-right: 4px !important;
+    height: 26px;
     vertical-align: middle;
     position: relative;
+    bottom: 1px;
 }
